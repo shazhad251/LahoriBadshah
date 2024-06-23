@@ -1,0 +1,309 @@
+
+.nav-item{
+	padding:6px;
+}
+.itme1{
+	padding-left:8%;
+}
+.item1 h2{
+	color:white;
+	font-family:Arial Black;
+}
+.items{
+	padding-left:3%;
+}
+.items a{
+	color:#ffffff;
+}
+.items a:hover{
+	opacity:0.6;
+}
+.carousel-inner img{
+	width:100%;
+	height:450px;
+}
+.welcome h3{
+	padding-top:4%;
+	text-align:center;
+}
+.list-group-item
+{
+	padding-left:30px;
+}
+#butn{
+	display:inline-block;
+	text-align:center;
+	margin-left:2px;
+}
+.btn-light{
+	background-color:#c0c0c0;
+}
+.copyright{
+	background:light;
+}
+#chkfname,#chklname,#chkmail,#chkpn,#chkuser,#efname,#elname,#email,#epn,#epass
+	{
+		color:red;
+		display:none;
+		
+	}	
+	#match{
+		display:none;
+		color:green;
+	}
+	::placeholder {
+	padding:5px;
+	font-size:17px;
+  color: red;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ 
+	font-size:17px;
+	padding:5px;
+ color: red;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+	padding:5px;
+	font-size:17px;
+ color: red;
+}
+
+	
+	
+@media screen and (max-width: 480px) {
+	
+}
+
+@media screen and (max-width: 700px) {
+	
+}
+
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+.swiper {
+	width: 100%;
+	height: 70%;
+
+  }
+
+  .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+
+  .swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	background-image: top center;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
+	margin: 0 auto;
+    padding: 0 10px;
+    width: 80%;
+}
+
+  .card {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+@media screen and (max-width:600px) {
+	.card{
+		flex-basis: 100%;
+	}
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    transition: transform 0.3s;
+}
+
+.card:hover .card-image img {
+    transform: scale(1.1);
+}
+
+
+.card:hover .overlay {
+    opacity: 1;
+}
+
+.card-text {
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}
+
+.button-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.all-menu-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.all-menu-button:hover {
+    background-color: #0056b3;
+}
+
+.parent_conloc{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+	gap: 10px;
+}
+.child_conloc{
+	flex-basis:45%;
+	height: auto;
+	gap:10px;
+}
+
+.form {
+    display: grid;
+    gap: 20px;
+}
+
+.form-group {
+    display: grid;
+    gap: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+@media screen and (max-width:768px) {
+	.child_conloc{
+		flex-basis: 100%;
+	}
+}
+.footer_section{
+	margin-top: 60px;
+}
+.footer {
+    display: flex;
+    background-color: #ff751a;
+    flex-wrap: wrap;
+    color: #fff;
+    padding: 20px 0;
+	font-family: 'Playwright NO', cursive;
+	width: 100%;
+	gap: 10px;
+
+}
+
+.footer_logo{
+	flex-basis: 40%;
+}
+.footer_menu{
+	flex-basis: 10%;
+}
+.footer_menu ul{
+	list-style: none;
+}
+.footer_menu  li{
+	list-style: none;
+}
+.footer_menu  li a{
+	text-decoration: none;
+	color: white;
+	
+}
+.footer_time{
+	flex-basis: 40%;
+	line-height: 10px;
+}
+.footer_time p{
+}
+
+@media screen and (max-width: 768px) {
+    .footer_logo{
+		flex-basis: 100%;
+		text-align: center;
+	}
+	.footer_menu{
+		flex-basis: 100%;
+		text-align: center;
+	}
+	.footer_time{
+		flex-basis: 100%;
+		text-align: center;
+	}
+}
+@media screen and (max-width:600px) {
+	.footer_time p{
+	font-size: 12px;
+	}
+
+}
