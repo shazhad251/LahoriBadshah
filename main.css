@@ -248,62 +248,91 @@ button:hover {
 		flex-basis: 100%;
 	}
 }
-.footer_section{
-	margin-top: 60px;
-}
-.footer {
-    display: flex;
-    background-color: #ff751a;
-    flex-wrap: wrap;
+footer{
+    height: auto;
+    width: 100vw;
     color: #fff;
-    padding: 20px 0;
-	font-family: 'Playwright NO', cursive;
-	width: 100%;
-	gap: 10px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    font-size: 14px;
+    color: white;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+
+    transition: color .4s ease;
+
+}
+.socials i{
+}
+.socials a:hover i{
+    color: aqua;
 
 }
 
-.footer_logo{
-	flex-basis: 40%;
-}
-.footer_menu{
-	flex-basis: 10%;
-}
-.footer_menu ul{
-	list-style: none;
-}
-.footer_menu  li{
-	list-style: none;
-}
-.footer_menu  li a{
-	text-decoration: none;
-	color: white;
+.header {
+    position: relative;
+    height: 70vh; /* Full height */
+    background: url('https://media.istockphoto.com/id/2043767125/photo/lemon-being-squeezed-over-shrimp-tandoori.webp?b=1&s=170667a&w=0&k=20&c=SulfbEiH8n88WrG0VPA09AUrAyiVAolOYSU5snDyt_k=') no-repeat center center/cover; /* Background image */;
 	
 }
-.footer_time{
-	flex-basis: 40%;
-	line-height: 10px;
-}
-.footer_time p{
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Overlay with opacity */
 }
 
-@media screen and (max-width: 768px) {
-    .footer_logo{
-		flex-basis: 100%;
-		text-align: center;
-	}
-	.footer_menu{
-		flex-basis: 100%;
-		text-align: center;
-	}
-	.footer_time{
-		flex-basis: 100%;
-		text-align: center;
-	}
+.header-content {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
 }
-@media screen and (max-width:600px) {
-	.footer_time p{
-	font-size: 12px;
-	}
 
+.header-content h1 {
+    font-size: 3em;
+}
+
+.header-content p {
+    font-size: 2.5em;
 }
